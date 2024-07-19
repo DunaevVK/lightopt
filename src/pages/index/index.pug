@@ -1,0 +1,21 @@
+//- Include used template for this page
+extends ../../template/template
+
+//- Variables for include this in used template
+block variables
+    - let title       = 'Blank Title'
+    - let description = 'Write description for this page here'
+    - let keywords    = 'Write keywords for this page here'
+    - let page        = 'index'
+
+block breadcrumbs
+    .section
+        span Хлебные крошки
+
+block content
+    h1 Главная
+    br
+    strong(style="color: red") Pug переменная page должна иметь тоже имя как и директория страницы
+    br
+    br
+    include components/about/about
