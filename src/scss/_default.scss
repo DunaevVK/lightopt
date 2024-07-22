@@ -23,7 +23,8 @@ input[type="password"]::-ms-reveal {
     display: none;
 }
 
-body, html {
+body,
+html {
     height: 100%;
     scroll-behavior: smooth;
 }
@@ -53,4 +54,25 @@ body {
 
 #main {
     flex: 1 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: var(--color-black)
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+.btn-reset {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
 }

@@ -1,6 +1,15 @@
 @import '../../scss/sass-variables';
 
 .footer {
-    height: 100px;
-    background: lightgreen;
+    height: 56px;
+    display: flex;
+    justify-content: space-between;
+
+    & button {
+        width: 80px;
+    }
+
+    &__btn {
+        padding: 10px 17px;
+    }
 }
